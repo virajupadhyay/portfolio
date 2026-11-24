@@ -1,0 +1,248 @@
+{
+  "profile": {
+    "name": "Upadhyay Viraj S.",
+    "shortName": "Viraj",
+    "monogram": "UV",
+    "title": "Software Engineer",
+    "status": "Available for New Opportunities",
+    "location": "Gujarat, India",
+    "timezone": "Asia/Kolkata",
+    "email": "sanjay.bhai2446@gmail.com",
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "heroBio": "A versatile Software Engineer focused on crafting high-performance web applications, intelligent Python automation systems, and applied AI/ML models that solve real-world problems.",
+    "aboutBio": "I am a Software Engineer based in Gujarat, currently pursuing my B.Tech in Information Technology at JG University following a diploma from Government Polytechnic, Rajkot. My engineering journey bridges modern full-stack web development with intelligent data systems and machine learning algorithms. I thrive on translating complex logic into intuitive, efficient, and resilient software.",
+    "metrics": [
+      { "label": "Projects Built", "value": "12+" },
+      { "label": "Core Domains", "value": "3 (Web, Python, AI)" },
+      { "label": "Code Quality", "value": "Production-Ready" },
+      { "label": "Location", "value": "Gujarat (IST)" }
+    ]
+  },
+  "disciplines": [
+    "Full-Stack Development",
+    "Applied Machine Learning",
+    "Python Automation",
+    "API Architecture",
+    "Computer Vision",
+    "Database Engineering",
+    "Modern JavaScript",
+    "Data Pipelines"
+  ],
+  "skills": {
+    "languages": ["JavaScript (ES6+)", "Python 3", "C / C++", "SQL", "HTML5", "CSS3 / Sass"],
+    "frameworks": ["Node.js", "Express.js", "React.js", "Flask", "FastAPI", "Tailwind CSS"],
+    "ai_ml": ["Scikit-Learn", "TensorFlow", "OpenCV", "Pandas", "NumPy", "Matplotlib", "YOLO"],
+    "tools": ["Git & GitHub", "Docker Basics", "Postman", "MongoDB", "MySQL", "VS Code", "Linux / Bash"]
+  },
+  "services": [
+    {
+      "id": "01",
+      "title": "Full-Stack Web Development",
+      "description": "Architecting responsive, high-speed web platforms with modern JavaScript, Node.js, and clean component-driven architecture."
+    },
+    {
+      "id": "02",
+      "title": "Python Scripting & Automation",
+      "description": "Engineering robust background scrapers, automated file pipelines, and data processing utilities that save hours of manual labor."
+    },
+    {
+      "id": "03",
+      "title": "Applied AI & Computer Vision",
+      "description": "Deploying intelligent predictive models, NLP sentiment classifiers, and real-time object detection systems using OpenCV and modern ML frameworks."
+    },
+    {
+      "id": "04",
+      "title": "Database & API Design",
+      "description": "Designing RESTful APIs with structured database schemas, secure data validation, and optimized query throughput."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "institution": "JG University",
+      "location": "Gujarat, India",
+      "period": "Currently Pursuing",
+      "badge": "In Progress",
+      "description": "Specializing in advanced software engineering, distributed systems, machine learning architectures, and cloud computing principles."
+    },
+    {
+      "degree": "Diploma in Information Technology",
+      "institution": "Government Polytechnic (G.P.), Rajkot",
+      "location": "Rajkot, Gujarat",
+      "period": "Completed",
+      "badge": "Graduated",
+      "description": "Established deep foundational mastery in object-oriented programming, data structures, relational database management, and computer networking."
+    }
+  ],
+  "projects": [
+    {
+      "id": "devtask",
+      "title": "DevTask",
+      "subtitle": "Task Management System",
+      "category": "javascript",
+      "categoryLabel": "JavaScript / Web",
+      "featured": true,
+      "tagline": "A collaborative workflow platform with interactive Kanban boards and real-time tracking.",
+      "description": "DevTask is a modern productivity application built to organize engineering workflows. Features dynamic drag-and-drop task boards, priority tagging, sprint estimation, and status analytics with persistent local state.",
+      "problem": "Teams and individuals frequently struggle with cluttered workflows and convoluted project tracking interfaces that distract from actual execution.",
+      "solution": "Constructed an ultra-responsive, zero-latency task board utilizing custom event handling, intuitive state management, and real-time progress indicators.",
+      "techStack": ["JavaScript (ES6+)", "HTML5 Drag & Drop", "CSS Grid & Flexbox", "Local Storage API"],
+      "highlights": ["Zero-lag Drag & Drop UI", "Category-based task sorting", "Progress visualization metrics"]
+    },
+    {
+      "id": "spendwise",
+      "title": "SpendWise",
+      "subtitle": "Personal Expense Tracker",
+      "category": "javascript",
+      "categoryLabel": "JavaScript / Web",
+      "featured": true,
+      "tagline": "Financial tracker with automated budget insights and interactive expenditure graphs.",
+      "description": "SpendWise enables individuals to record, categorize, and inspect their spending habits through visual charts, monthly balance alerts, and CSV export capabilities.",
+      "problem": "Lack of visual financial clarity leads to uncontrolled expenditure and fragmented budget tracking.",
+      "solution": "Built an interactive financial dashboard providing instant income-versus-expense calculations and real-time dynamic breakdown charts.",
+      "techStack": ["JavaScript", "Chart.js / Canvas", "Modular CSS", "IndexedDB / Storage"],
+      "highlights": ["Dynamic expense visualizer", "Custom category filters", "Exportable financial statements"]
+    },
+    {
+      "id": "chatsphere",
+      "title": "ChatSphere",
+      "subtitle": "Real-Time Chat Application",
+      "category": "javascript",
+      "categoryLabel": "JavaScript / Web",
+      "featured": true,
+      "tagline": "Instant bi-directional communication room with live presence and typing notifications.",
+      "description": "ChatSphere is a real-time messaging platform supporting topic channels, user presence indicators, instant message delivery via WebSockets, and clean message rendering.",
+      "problem": "Traditional HTTP-based chat applications suffer from latency and poor polling overhead.",
+      "solution": "Implemented persistent bi-directional communication channels with low overhead, enabling instantaneous typing indicators and reliable delivery.",
+      "techStack": ["JavaScript", "Node.js", "Socket.io / WebSockets", "Express", "CSS3"],
+      "highlights": ["Sub-millisecond message delivery", "Room-based isolation", "Active status presence"]
+    },
+    {
+      "id": "shopease",
+      "title": "ShopEase",
+      "subtitle": "E-Commerce Platform",
+      "category": "javascript",
+      "categoryLabel": "JavaScript / Web",
+      "featured": false,
+      "tagline": "Modular online storefront with real-time cart computation and catalog filtering.",
+      "description": "A comprehensive e-commerce front-end application with dynamic product search, price filters, responsive shopping cart drawer, and order summary computation.",
+      "problem": "Complex e-commerce checkouts often suffer from slow client-side rendering and clunky cart updates.",
+      "solution": "Designed a lightweight, reactive cart state model that instantly updates balances, applies coupon logic, and persists cart items across sessions.",
+      "techStack": ["JavaScript", "HTML5", "CSS3 Animations", "RESTful Mock API"],
+      "highlights": ["Instant cart calculation", "Multi-criteria product search", "Responsive mobile-first layout"]
+    },
+    {
+      "id": "fileflow",
+      "title": "FileFlow",
+      "subtitle": "Automated File Organizer",
+      "category": "python",
+      "categoryLabel": "Python & Automation",
+      "featured": true,
+      "tagline": "Intelligent file system daemon that classifies, renames, and archives directory clutter.",
+      "description": "FileFlow runs as an automated background utility to sort messy folders (Downloads, Desktop, Documents) by MIME type, creation date, and file extension into structured directory trees.",
+      "problem": "Manual desktop and download folder cleanup is tedious, repetitive, and time-consuming.",
+      "solution": "Engineered a Python automation script using OS and Watchdog events that instantly intercepts new files and routes them into categorized destination archives.",
+      "techStack": ["Python 3", "OS / Sys Libraries", "Shutil", "Watchdog", "Logging"],
+      "highlights": ["Automated background daemon", "Custom regex rules", "Duplicate file hashing"]
+    },
+    {
+      "id": "pdfmaster",
+      "title": "PDFMaster",
+      "subtitle": "PDF Management System",
+      "category": "python",
+      "categoryLabel": "Python & Automation",
+      "featured": false,
+      "tagline": "Comprehensive document utility for batch merging, splitting, watermarking, and encryption.",
+      "description": "PDFMaster is an all-in-one document pipeline providing automated PDF operations including password protection, page extraction, watermark stamping, and file compression.",
+      "problem": "Online third-party PDF converters often compromise sensitive data privacy and enforce strict file size limits.",
+      "solution": "Crafted an offline, privacy-first local Python utility that securely handles high-volume document transformations without sending bytes over the wire.",
+      "techStack": ["Python 3", "PyPDF2 / PyMuPDF", "ReportLab", "Argparse CLI"],
+      "highlights": ["100% offline privacy", "Batch document operations", "AES-256 PDF encryption"]
+    },
+    {
+      "id": "webscraper-pro",
+      "title": "WebScraper Pro",
+      "subtitle": "Web Data Extraction Tool",
+      "category": "python",
+      "categoryLabel": "Python & Automation",
+      "featured": true,
+      "tagline": "Concurrent scraping engine with rate limiting, proxy handling, and multi-format export.",
+      "description": "An enterprise-grade web scraping pipeline engineered to parse nested HTML pages, bypass client rendering, and export structured data directly to CSV, JSON, and SQLite.",
+      "problem": "Manual data extraction from dynamic sites is prone to anti-scraping blocks, inconsistent schemas, and performance bottlenecks.",
+      "solution": "Implemented an asynchronous scraping engine featuring intelligent user-agent rotation, retry backoff logic, and robust schema validation.",
+      "techStack": ["Python 3", "BeautifulSoup4", "Requests", "Selenium", "Pandas"],
+      "highlights": ["Dynamic JS rendering support", "Structured JSON/CSV output", "Smart rate-limiting backoff"]
+    },
+    {
+      "id": "stocktrack",
+      "title": "StockTrack",
+      "subtitle": "Stock Market Data Analyzer",
+      "category": "python",
+      "categoryLabel": "Python & Automation",
+      "featured": false,
+      "tagline": "Financial analytics tool calculating technical indicators and visual price trends.",
+      "description": "StockTrack queries market feeds to generate historical price charts, calculate Moving Averages (SMA/EMA), Relative Strength Index (RSI), and detect breakout patterns.",
+      "problem": "Retail investors often face information overload and pay heavy subscription fees for simple technical indicator computations.",
+      "solution": "Developed a streamlined Python analytical script that pulls ticker data and generates clean visual trendlines and indicator signals.",
+      "techStack": ["Python 3", "yFinance API", "Pandas", "Matplotlib / Seaborn", "NumPy"],
+      "highlights": ["RSI & Moving Average indicators", "Automated chart rendering", "Historical volatility modeling"]
+    },
+    {
+      "id": "sentimentai",
+      "title": "SentimentAI",
+      "subtitle": "Sentiment Analysis System",
+      "category": "aiml",
+      "categoryLabel": "AI & Machine Learning",
+      "featured": true,
+      "tagline": "Natural language processing model classifying customer reviews and sentiment polarities.",
+      "description": "SentimentAI uses advanced text preprocessing, tokenization, and vectorization to analyze user feedback, classifying sentiments into Positive, Neutral, or Negative with high confidence scores.",
+      "problem": "Organizations receive thousands of customer reviews and support tickets daily without a practical way to prioritize negative alerts.",
+      "solution": "Built an end-to-end NLP classification pipeline that ingests raw feedback, strips noise, and scores emotional polarity in milliseconds.",
+      "techStack": ["Python", "Scikit-Learn", "NLTK", "TF-IDF Vectorizer", "Flask API"],
+      "highlights": ["88%+ classification accuracy", "Automated text cleaning pipeline", "Lightweight REST inference endpoint"]
+    },
+    {
+      "id": "moviemind",
+      "title": "MovieMind",
+      "subtitle": "Movie Recommendation System",
+      "category": "aiml",
+      "categoryLabel": "AI & Machine Learning",
+      "featured": true,
+      "tagline": "Hybrid recommendation engine combining content-based filtering with cosine similarity.",
+      "description": "MovieMind recommends tailored cinema selections by processing plot descriptions, cast attributes, and genre tags through high-dimensional vector spaces.",
+      "problem": "Users spend excessive time browsing streaming libraries without discovering relevant media tailored to their taste.",
+      "solution": "Designed a content-based recommendation model utilizing feature extraction and Cosine Similarity matrices to deliver instant recommendations.",
+      "techStack": ["Python", "Pandas", "Scikit-Learn", "Cosine Similarity", "Streamlit UI"],
+      "highlights": ["Instant top-10 similarity querying", "Multi-tag feature weighting", "Clean visual discovery UI"]
+    },
+    {
+      "id": "fraudguard",
+      "title": "FraudGuard",
+      "subtitle": "Fraud Detection System",
+      "category": "aiml",
+      "categoryLabel": "AI & Machine Learning",
+      "featured": false,
+      "tagline": "Anomaly detection engine identifying high-risk transactional anomalies with ML models.",
+      "description": "FraudGuard inspects transaction parameters (velocity, amount, location deviation) and applies trained ensemble classifiers to flag fraudulent actions in real-time.",
+      "problem": "Imbalanced transaction datasets make typical models prone to excessive false negatives on financial fraud.",
+      "solution": "Trained Random Forest and XGBoost classifiers with SMOTE resampled data to reliably detect rare anomaly clusters while maintaining high precision.",
+      "techStack": ["Python", "Random Forest", "XGBoost", "SMOTE", "Scikit-Learn", "Pandas"],
+      "highlights": ["Robust handling of imbalanced data", "High precision on anomaly alerts", "Feature importance breakdown"]
+    },
+    {
+      "id": "visionx",
+      "title": "VisionX",
+      "subtitle": "Real-Time Object Detection System",
+      "category": "aiml",
+      "categoryLabel": "AI & Machine Learning",
+      "featured": true,
+      "tagline": "Computer vision pipeline rendering real-time bounding boxes and confidence scores.",
+      "description": "VisionX leverages OpenCV and deep neural networks (YOLO) to identify, track, and annotate multi-class objects across live camera feeds and video streams at high frame rates.",
+      "problem": "Object detection models often suffer from high frame drops and latency when deployed on commodity consumer hardware.",
+      "solution": "Optimized lightweight convolutional inference graphs with OpenCV DNN module, achieving smooth 30+ FPS real-time video processing.",
+      "techStack": ["Python", "OpenCV", "YOLO / Darknet", "NumPy", "Deep Learning"],
+      "highlights": ["30+ FPS real-time tracking", "Multi-class bounding box annotation", "Hardware-accelerated inference"]
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upadhyay Viraj S. — Software Engineer | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Upadhyay Viraj S., Software Engineer specializing in modern JavaScript applications, Python automation pipelines, and applied Machine Learning.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  
+  <!-- Google Fonts: Plus Jakarta Sans, Playfair Display & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Editorial Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand" aria-label="Upadhyay Viraj S. Home">
+        <div class="monogram">UV</div>
+        <div class="brand-text">
+          <span class="brand-name">Upadhyay Viraj S.</span>
+          <span class="brand-title">Software Engineer</span>
+        </div>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Index</a></li>
+          <li><a href="#work" class="nav-link">Selected Work</a></li>
+          <li><a href="#services" class="nav-link">Capabilities</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="status-pill" title="Current Status">
+          <span class="pulse-dot"></span>
+          <span>Available</span>
+        </div>
+        <a href="#contact" class="cta-button">
+          <span>Let's Talk</span>
+          <span>→</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-meta-badge">
+          <span class="meta-accent">● AVAILABLE FOR HIRE</span>
+          <span>//</span>
+          <span>GUJARAT, INDIA</span>
+        </div>
+
+        <h1 class="hero-title">
+          Engineering high-impact web apps, robust Python systems &amp; <span class="editorial-italic">applied AI.</span>
+        </h1>
+
+        <p class="hero-bio">
+          I'm <strong>Upadhyay Viraj S.</strong>, a Software Engineer crafting scalable full-stack web applications, automated data extraction pipelines, and machine learning solutions with clean, resilient code.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#work" class="btn-primary">
+            <span>Explore 12 Projects</span>
+            <span>↓</span>
+          </a>
+          <button type="button" class="btn-secondary copy-email-trigger" aria-label="Copy Email Address">
+            <span>Copy Email Address</span>
+            <span>⎘</span>
+          </button>
+          <a href="#contact" class="btn-secondary">
+            <span>Get in Touch</span>
+            <span>→</span>
+          </a>
+        </div>
+
+        <!-- Metrics Ribbon -->
+        <div class="metrics-ribbon">
+          <div class="metric-card">
+            <div class="metric-value">12+</div>
+            <div class="metric-label">Shipped Projects</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">3</div>
+            <div class="metric-label">Core Domains (Web, Python, AI)</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">B.Tech</div>
+            <div class="metric-label">Information Technology (JG Univ)</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">Gujarat</div>
+            <div class="metric-label">Open to Remote / On-site</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Marquee Ticker -->
+    <div class="marquee-container" aria-hidden="true">
+      <div class="marquee-track" id="marquee-track">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+
+    <!-- Selected Works Section -->
+    <section id="work" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">01 // Portfolio Showcase</div>
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-subtitle">
+            A curated portfolio spanning modern JavaScript applications, production Python automation engines, and machine learning models.
+          </p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="filter-tabs" role="tablist" aria-label="Project Categories">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+            <span>All Projects</span>
+            <span class="filter-count">12</span>
+          </button>
+          <button class="filter-btn" data-filter="javascript" role="tab" aria-selected="false">
+            <span>JavaScript &amp; Web</span>
+            <span class="filter-count">4</span>
+          </button>
+          <button class="filter-btn" data-filter="python" role="tab" aria-selected="false">
+            <span>Python &amp; Automation</span>
+            <span class="filter-count">4</span>
+          </button>
+          <button class="filter-btn" data-filter="aiml" role="tab" aria-selected="false">
+            <span>AI &amp; Machine Learning</span>
+            <span class="filter-count">4</span>
+          </button>
+        </div>
+
+        <!-- Projects Grid Container -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Capabilities & Services Section (01 - 04) -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">02 // Core Competencies</div>
+          <h2 class="section-title">Capabilities &amp; Services</h2>
+          <p class="section-subtitle">
+            Disciplined software engineering applied across frontend, backend, automation, and computer vision.
+          </p>
+        </div>
+
+        <div class="services-grid" id="services-grid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Matrix -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">03 // Technical Repertoire</div>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">
+            Languages, frameworks, data libraries, and tools I use to design and deploy software solutions.
+          </p>
+        </div>
+
+        <div class="skills-container" id="skills-container">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Timeline Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">04 // Academic Foundation</div>
+          <h2 class="section-title">Education &amp; Background</h2>
+          <p class="section-subtitle">
+            Formal information technology curriculum grounding my engineering practices in core computer science.
+          </p>
+        </div>
+
+        <div class="timeline" id="education-timeline">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">05 // Personal Philosophy</div>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-avatar-wrapper">
+              UV
+            </div>
+            <h3 class="about-card-name">Upadhyay Viraj S.</h3>
+            <p class="about-card-title">Software Engineer</p>
+
+            <ul class="about-detail-list">
+              <li class="about-detail-item">
+                <span class="about-detail-label">Status</span>
+                <span class="about-detail-value" style="color: var(--status-green);">Active / Available</span>
+              </li>
+              <li class="about-detail-item">
+                <span class="about-detail-label">Location</span>
+                <span class="about-detail-value">Gujarat, India</span>
+              </li>
+              <li class="about-detail-item">
+                <span class="about-detail-label">Timezone</span>
+                <span class="about-detail-value">IST (UTC+5:30)</span>
+              </li>
+              <li class="about-detail-item">
+                <span class="about-detail-label">Degree</span>
+                <span class="about-detail-value">B.Tech IT (Pursuing)</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="about-content">
+            <p class="about-lead">
+              "Great engineering isn't just about writing code that runs—it's about crafting solutions that are reliable, maintainable, and remarkably intuitive."
+            </p>
+            <p class="about-body">
+              My software development journey began during my Diploma in Information Technology at Government Polytechnic, Rajkot, where I cultivated an appreciation for data structures, algorithms, and modular design. Now advancing through my B.Tech at JG University, I build hands-on applications spanning responsive web platforms, automated background pipelines, and machine learning models.
+            </p>
+            <p class="about-body">
+              Whether building an e-commerce checkout workflow, orchestrating multi-threaded web scrapers in Python, or training object detection models with YOLO and OpenCV, I bring focus, rigor, and an eye for clean architecture to every project.
+            </p>
+            <div>
+              <button type="button" class="btn-primary copy-email-trigger">
+                <span>Copy Direct Email</span>
+                <span>⎘</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-info">
+            <div>
+              <div class="section-eyebrow">06 // Initiate Contact</div>
+              <h2 class="contact-heading">Let's build something <span class="editorial-italic">extraordinary.</span></h2>
+              <p class="contact-sub">
+                I am actively open to engineering roles, collaborative projects, and freelance engagements in Gujarat and worldwide (remote).
+              </p>
+
+              <div class="direct-email-box">
+                <span class="email-address">sanjay.bhai2446@gmail.com</span>
+                <button type="button" class="copy-btn copy-email-trigger" aria-label="Copy Email">
+                  <span>Copy</span>
+                  <span>⎘</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="live-time-ticker">
+              <span>● Local Time:</span>
+              <span id="local-time">--:--:-- IST (Gujarat)</span>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="form-name" class="form-label">Your Name</label>
+              <input type="text" id="form-name" class="form-input" placeholder="e.g. Alex Morgan" required>
+            </div>
+
+            <div class="form-group">
+              <label for="form-email" class="form-label">Email Address</label>
+              <input type="email" id="form-email" class="form-input" placeholder="e.g. alex@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="form-message" class="form-label">Project Details or Inquiry</label>
+              <textarea id="form-message" class="form-textarea" placeholder="Tell me about the role, project scope, or opportunity..." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit-btn">
+              <span>Send Message</span>
+              <span>→</span>
+            </button>
+          </form>
+        </div>
+
+        <footer class="footer-bottom">
+          <div>
+            © 2026 Upadhyay Viraj S. Designed with Swiss Minimalist Precision.
+          </div>
+          <div class="footer-socials">
+            <a href="mailto:sanjay.bhai2446@gmail.com" class="footer-social-link">Email</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-social-link">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-social-link">LinkedIn</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- Case Study Detail Modal -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close Case Study Modal">✕</button>
+      <div id="modal-content-area">
+        <!-- Injected dynamically on card click -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
