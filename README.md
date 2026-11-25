@@ -57,7 +57,7 @@ You can preview the portfolio using any local web server:
 ```bash
 python3 -m http.server 8080
 ```
-Then visit [http://localhost:8080](http://localhost:8080) in your browser.
+Then  visit https://virajupadhyay.github.io/portfolio/ in your browser.
 
 ### Option B: Node.js
 ```bash
